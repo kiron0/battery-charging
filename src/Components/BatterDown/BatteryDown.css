@@ -21,7 +21,7 @@
     position: absolute;
     width: 240px;
     height: 240px;
-    background: linear-gradient(#00e1ff,#014fce);
+    background: linear-gradient(#2196f3,#31ff38);
     border-radius: 50%;
     transform: translate(180px, 180px);
 }
