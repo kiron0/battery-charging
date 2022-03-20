@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./BatteryDown.css";
 
 const BatteryDown = () => {
-  let [charge, setCharge] = useState(99);
+  let [charge, setCharge] = useState(100);
   const upBattery = () => setCharge(charge + 1);
   const downBattery = () => setCharge(charge - 5);
   let batteryDown;
