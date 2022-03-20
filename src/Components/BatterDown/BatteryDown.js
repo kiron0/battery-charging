@@ -29,7 +29,7 @@ const BatteryDown = () => {
         </div>
         <h1>{charge}%</h1>
         <div className="allButton">
-        <button className="btn" onClick={upBattery}>
+        <button className="btn" id="btn1" onClick={upBattery}>
             Battery Up <FontAwesomeIcon icon="fa-solid fa-up" />
           </button>
           <button className="btn" onClick={downBattery}>

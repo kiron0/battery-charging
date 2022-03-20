@@ -12,7 +12,7 @@
     position: absolute;
     width: 240px;
     height: 240px;
-    background: linear-gradient(#ffc107, #e91e63);
+    background: linear-gradient(#e91e63, #ffc107);
     border-radius: 50%;
     transform: translate(-180px, -180px);
 }
@@ -21,7 +21,7 @@
     position: absolute;
     width: 240px;
     height: 240px;
-    background: linear-gradient(#2196f3, #31ff38);
+    background: linear-gradient(#00e1ff,#014fce);
     border-radius: 50%;
     transform: translate(180px, 180px);
 }
@@ -37,8 +37,8 @@
     padding: 20px;
 }
 .btn{
-    background: linear-gradient(90deg, #b85dca, #ec407a);
-    border: 2px solid #eb6e97;
+    background: linear-gradient(90deg, #2196f3, #1845ad);
+    border: 1px solid #2196f3;
     color: white;
     padding: 10px 20px 10px 20px;
     cursor: pointer;
@@ -95,7 +95,7 @@
     height: 100%;
     width: 50%;
     border-radius: 4px;
-    background: linear-gradient(90deg, #9c38af, #fd2c72);
+    background: linear-gradient(90deg, #1845ad, #23a2f6);
 }
 .noCharge{
     font-size: 40px;
@@ -118,5 +118,40 @@
     }
     100%{
         transform: translateX(-40px);
+    }
+}
+
+@media screen and (max-width: 490px){
+    .batteryDown{
+        height: 350px;
+        width: 260px;
+    }
+    #btn1{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 776px){
+    .batteryDown{
+        height: 350px;
+        width: 260px;
+    }
+    #btn1{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .batteryDown{
+        height: 370px;
+        width: 280px;
+    }
+    .btn{
+        margin-bottom: 15px;
+    }
+    #btn1{
+        margin-top: 25px;
+    }
+    .batteryShape{
+        margin-top: 35px;
     }
 }
