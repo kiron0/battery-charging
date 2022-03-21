@@ -5,7 +5,7 @@ import "./BatteryDown.css";
 const BatteryDown = () => {
   let [charge, setCharge] = useState(100);
   const upBattery = () => setCharge(charge + 1);
-  const downBattery = () => setCharge(charge - 5);
+  const downBattery = () => setCharge(charge - 10);
   let batteryDown;
   if (charge <= 0) {
     charge = 0;
